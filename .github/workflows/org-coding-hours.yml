@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run Org Coding Hours Action
-        uses: LabVIEW-Community-CI-CD/org-coding-hours-action@v7
+        uses: LabVIEW-Community-CI-CD/org-coding-hours-action@latest
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           repos: ${{ github.event.inputs.repos }}
